@@ -3,289 +3,1337 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>Hemant | Portfolio</title>
 
-  <!-- Tailwind CDN -->
+  <!-- Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
 
+  <!-- Custom CSS -->
   <link rel="stylesheet" href="style.css" />
 
+  <!-- Feather Icons -->
   <script src="https://unpkg.com/feather-icons"></script>
-
-  <script src="script.js"></script>
-</body>
-</html>
-
-
 </head>
-<script>
-  feather.replace()
-</script>
 
 <body class="bg-black text-white font-sans dark">
-<header class="fixed w-full top-0 bg-black/60 backdrop-blur border-b border-white/10 z-50 navbar fixed w-full top-0">
-  <nav class="max-w-6xl mx-auto flex items-center justify-between px-6 py-4">
-    <h1 class="font-bold text-lg">Hemant Choudhary</h1>
 
-    <ul class="hidden md:flex gap-6 text-gray-300">
-      <li><a href="#projects" class="hover:text-white">Projects</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-    
-</header>
-<section class="min-h-screen flex items-center justify-center text-center px-6 section">
-  <div class="max-w-3xl mt-20">
-    <h1 class="text-4xl md:text-6xl font-bold mb-4">
-      Hemant Choudhary
-    </h1>
+  <!-- ================= NAVBAR ================= -->
 
-    <p class="text-gray-400 mb-6">
-      BTech CSE (Data Science) Student • Pune, India
+  <header class="fixed w-full top-0 bg-black/60 backdrop-blur border-b border-white/10 z-50">
+    <nav class="max-w-6xl mx-auto flex items-center justify-between px-6 py-4">
+
+      <h1 class="font-bold text-lg">
+        Hemant Choudhary
+      </h1>
+
+      <ul class="hidden md:flex gap-6 text-gray-300">
+
+        <li>
+          <a href="#projects" class="hover:text-white transition">
+            Projects
+          </a>
+        </li>
+
+        <li>
+          <a href="#skills" class="hover:text-white transition">
+            Skills
+          </a>
+        </li>
+
+        <li>
+          <a href="#hackathons" class="hover:text-white transition">
+            Hackathons
+          </a>
+        </li>
+
+        <li>
+          <a href="#contact" class="hover:text-white transition">
+            Contact
+          </a>
+        </li>
+
+      </ul>
+
+    </nav>
+  </header>
+
+
+  <!-- ================= HERO ================= -->
+
+  <section class="min-h-screen flex items-center justify-center text-center px-6 section">
+
+    <div class="max-w-3xl mt-20">
+
+      <h1 class="text-4xl md:text-6xl font-bold mb-4">
+        Hemant Choudhary
+      </h1>
+
+      <p class="text-gray-400 mb-6">
+        BTech CSE (Data Science) Student • Pune, India
+      </p>
+
+      <p class="text-gray-300 mb-8">
+        I build clean, scalable, and real-world web applications.
+      </p>
+
+      <div class="flex flex-wrap justify-center gap-4">
+
+        <a
+          href="mailto:hemant75583@gmail.com"
+          class="bg-white text-black px-6 py-2 rounded-lg hover:bg-gray-200 transition"
+        >
+          Email Me
+        </a>
+
+        <a
+          href="https://github.com/HemantXCode"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="border border-white/20 px-6 py-2 rounded-lg hover:bg-white hover:text-black transition"
+        >
+          GitHub
+        </a>
+
+        <a
+          href="https://www.linkedin.com/in/hemant-choudhary-65baa0281"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="border border-white/20 px-6 py-2 rounded-lg hover:bg-white hover:text-black transition"
+        >
+          LinkedIn
+        </a>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- ================= TECH STACK MARQUEE ================= -->
+
+  <section class="tech-marquee" aria-label="Technology stack">
+
+    <div class="marquee-track">
+
+      <!-- FIRST SET -->
+
+      <div class="tech-logo">
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+          alt="Python"
+        />
+      </div>
+
+      <div class="tech-logo">
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
+          alt="C++"
+        />
+      </div>
+
+      <div class="tech-logo">
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+          alt="JavaScript"
+        />
+      </div>
+
+      <div class="tech-logo">
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+          alt="React"
+        />
+      </div>
+
+      <div class="tech-logo">
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+          alt="Node.js"
+        />
+      </div>
+
+      <div class="tech-logo">
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+          alt="MongoDB"
+        />
+      </div>
+
+      <div class="tech-logo">
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg"
+          alt="Tailwind CSS"
+        />
+      </div>
+
+      <div class="tech-logo">
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+          alt="TypeScript"
+        />
+      </div>
+
+      <div class="tech-logo">
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
+          alt="Next.js"
+        />
+      </div>
+
+      <div class="tech-logo">
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+          alt="SQL"
+        />
+      </div>
+
+
+      <!-- DUPLICATE SET FOR SEAMLESS LOOP -->
+
+      <div class="tech-logo">
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+          alt="Python"
+        />
+      </div>
+
+      <div class="tech-logo">
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
+          alt="C++"
+        />
+      </div>
+
+      <div class="tech-logo">
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+          alt="JavaScript"
+        />
+      </div>
+
+      <div class="tech-logo">
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+          alt="React"
+        />
+      </div>
+
+      <div class="tech-logo">
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+          alt="Node.js"
+        />
+      </div>
+
+      <div class="tech-logo">
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+          alt="MongoDB"
+        />
+      </div>
+
+      <div class="tech-logo">
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg"
+          alt="Tailwind CSS"
+        />
+      </div>
+
+      <div class="tech-logo">
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+          alt="TypeScript"
+        />
+      </div>
+
+      <div class="tech-logo">
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
+          alt="Next.js"
+        />
+      </div>
+
+      <div class="tech-logo">
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+          alt="SQL"
+        />
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- ================= ABOUT ================= -->
+
+  <section class="py-20 max-w-4xl mx-auto px-6 section">
+
+    <h2 class="text-3xl font-bold mb-6 text-center">
+      About Me
+    </h2>
+
+    <p class="text-gray-400 text-center leading-relaxed">
+      I am a first-year BTech CSE student specializing in AI and Data Science,
+      with a strong interest in web development and emerging technologies.
+      I enjoy turning ideas into functional, user-friendly applications and
+      continuously learning through projects, hackathons, and self-study.
+      My goal is to grow as a skilled software engineer and build impactful
+      technology solutions.
     </p>
 
-    <p class="text-gray-300 mb-8">
-      I build clean, scalable, and real-world web applications.
+  </section>
+
+
+  <!-- ================= EDUCATION ================= -->
+
+  <section class="py-10 px-6 section">
+
+    <div class="max-w-3xl mx-auto bg-white/5 border border-white/10 rounded-xl p-6 text-center">
+
+      <h3 class="text-xl font-semibold">
+        B.Tech in Computer Science Engineering
+      </h3>
+
+      <p class="text-gray-400">
+        Ajeenkya DY Patil College, Pune
+      </p>
+
+      <p class="text-gray-500 mt-2">
+        Expected Graduation: 2029
+      </p>
+
+    </div>
+
+  </section>
+
+
+  <!-- ================= SKILLS ================= -->
+
+  <section id="skills" class="py-20 max-w-6xl mx-auto px-6">
+
+    <h2 class="text-3xl font-bold text-center mb-12">
+      Skills
+    </h2>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+
+      <!-- LANGUAGES & WEB -->
+
+      <div class="skill-section">
+
+        <h3 class="skill-section-title">
+          Languages & Web Development
+        </h3>
+
+        <div class="skills-grid">
+
+          <div class="skill-card">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+              alt="Python"
+            />
+            <p>Python</p>
+          </div>
+
+          <div class="skill-card">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
+              alt="C++"
+            />
+            <p>C++</p>
+          </div>
+
+          <div class="skill-card">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+              alt="JavaScript"
+            />
+            <p>JavaScript</p>
+          </div>
+
+          <div class="skill-card">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+              alt="HTML5"
+            />
+            <p>HTML5</p>
+          </div>
+
+          <div class="skill-card">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+              alt="CSS3"
+            />
+            <p>CSS3</p>
+          </div>
+
+          <div class="skill-card">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg"
+              alt="Tailwind CSS"
+            />
+            <p>Tailwind CSS</p>
+          </div>
+
+          <div class="skill-card">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
+              alt="Bootstrap"
+            />
+            <p>Bootstrap</p>
+          </div>
+
+          <div class="skill-card">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+              alt="React.js"
+            />
+            <p>React.js</p>
+          </div>
+
+          <div class="skill-card">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+              alt="Node.js"
+            />
+            <p>Node.js</p>
+          </div>
+
+          <div class="skill-card">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+              alt="Express.js"
+            />
+            <p>Express.js</p>
+          </div>
+
+          <div class="skill-card">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+              alt="MERN Stack"
+            />
+            <p>MERN Stack</p>
+          </div>
+
+          <div class="skill-card">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+              alt="SQL"
+            />
+            <p>SQL</p>
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- AI & DATA SCIENCE -->
+
+      <div class="skill-section">
+
+        <h3 class="skill-section-title">
+          AI & Data Science
+        </h3>
+
+        <div class="skills-grid">
+
+
+          <!-- AI -->
+
+          <div class="skill-card">
+
+            <div class="svg-icon ai-icon">
+
+              <svg viewBox="0 0 64 64">
+
+                <circle
+                  cx="32"
+                  cy="32"
+                  r="20"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="3"
+                />
+
+                <circle cx="24" cy="27" r="3" fill="currentColor"/>
+                <circle cx="40" cy="27" r="3" fill="currentColor"/>
+
+                <path
+                  d="M24 39 Q32 45 40 39"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="3"
+                  stroke-linecap="round"
+                />
+
+                <path
+                  d="M32 4V12M32 52V60M4 32H12M52 32H60"
+                  stroke="currentColor"
+                  stroke-width="3"
+                  stroke-linecap="round"
+                />
+
+              </svg>
+
+            </div>
+
+            <p>Artificial Intelligence</p>
+
+          </div>
+
+
+          <!-- DATA SCIENCE -->
+
+          <div class="skill-card">
+
+            <div class="svg-icon data-icon">
+
+              <svg viewBox="0 0 64 64">
+
+                <rect x="10" y="34" width="9" height="20" rx="2"/>
+                <rect x="27" y="24" width="9" height="30" rx="2"/>
+                <rect x="44" y="14" width="9" height="40" rx="2"/>
+
+                <path
+                  d="M8 54H56"
+                  stroke="currentColor"
+                  stroke-width="3"
+                  fill="none"
+                />
+
+                <circle cx="15" cy="28" r="4"/>
+                <circle cx="32" cy="18" r="4"/>
+                <circle cx="49" cy="8" r="4"/>
+
+              </svg>
+
+            </div>
+
+            <p>Data Science</p>
+
+          </div>
+
+
+          <!-- MACHINE LEARNING -->
+
+          <div class="skill-card">
+
+            <div class="svg-icon ml-icon">
+
+              <svg viewBox="0 0 64 64">
+
+                <path
+                  d="M32 8L55 20V44L32 56L9 44V20L32 8Z"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="3"
+                />
+
+                <circle cx="24" cy="27" r="4"/>
+                <circle cx="40" cy="27" r="4"/>
+                <circle cx="32" cy="40" r="4"/>
+
+                <path
+                  d="M24 27L40 27L32 40L24 27"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2.5"
+                />
+
+              </svg>
+
+            </div>
+
+            <p>Machine Learning</p>
+
+          </div>
+
+
+          <!-- GENERATIVE AI -->
+
+          <div class="skill-card">
+
+            <div class="svg-icon genai-icon">
+
+              <svg viewBox="0 0 64 64">
+
+                <path
+                  d="M32 4
+                  C34 20 44 30 60 32
+                  C44 34 34 44 32 60
+                  C30 44 20 34 4 32
+                  C20 30 30 20 32 4Z"
+                  fill="currentColor"
+                />
+
+              </svg>
+
+            </div>
+
+            <p>Generative AI</p>
+
+          </div>
+
+
+          <!-- LANGCHAIN -->
+
+          <div class="skill-card">
+
+            <div class="svg-icon chain-icon">
+
+              <svg viewBox="0 0 64 64">
+
+                <path
+                  d="M18 25L27 16C32 11 40 11 45 16C50 21 50 29 45 34L37 42"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="5"
+                  stroke-linecap="round"
+                />
+
+                <path
+                  d="M46 39L37 48C32 53 24 53 19 48C14 43 14 35 19 30L27 22"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="5"
+                  stroke-linecap="round"
+                />
+
+              </svg>
+
+            </div>
+
+            <p>LangChain</p>
+
+          </div>
+
+
+          <!-- LANGGRAPH -->
+
+          <div class="skill-card">
+
+            <div class="svg-icon graph-icon">
+
+              <svg viewBox="0 0 64 64">
+
+                <line
+                  x1="14"
+                  y1="18"
+                  x2="32"
+                  y2="32"
+                  stroke="currentColor"
+                  stroke-width="3"
+                />
+
+                <line
+                  x1="32"
+                  y1="32"
+                  x2="50"
+                  y2="18"
+                  stroke="currentColor"
+                  stroke-width="3"
+                />
+
+                <line
+                  x1="32"
+                  y1="32"
+                  x2="50"
+                  y2="48"
+                  stroke="currentColor"
+                  stroke-width="3"
+                />
+
+                <line
+                  x1="14"
+                  y1="18"
+                  x2="14"
+                  y2="48"
+                  stroke="currentColor"
+                  stroke-width="3"
+                />
+
+                <circle cx="14" cy="18" r="6"/>
+                <circle cx="32" cy="32" r="6"/>
+                <circle cx="50" cy="18" r="6"/>
+                <circle cx="50" cy="48" r="6"/>
+                <circle cx="14" cy="48" r="6"/>
+
+              </svg>
+
+            </div>
+
+            <p>LangGraph</p>
+
+          </div>
+
+
+          <!-- AI AGENTS -->
+
+          <div class="skill-card">
+
+            <div class="svg-icon agent-icon">
+
+              <svg viewBox="0 0 64 64">
+
+                <rect
+                  x="12"
+                  y="18"
+                  width="40"
+                  height="34"
+                  rx="10"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="3"
+                />
+
+                <circle cx="24" cy="34" r="4"/>
+                <circle cx="40" cy="34" r="4"/>
+
+                <path
+                  d="M24 44 Q32 49 40 44"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="3"
+                  stroke-linecap="round"
+                />
+
+                <line
+                  x1="32"
+                  y1="18"
+                  x2="32"
+                  y2="10"
+                  stroke="currentColor"
+                  stroke-width="3"
+                />
+
+                <circle cx="32" cy="7" r="3"/>
+
+              </svg>
+
+            </div>
+
+            <p>AI Agents</p>
+
+          </div>
+
+
+          <!-- GEMINI -->
+
+          <div class="skill-card">
+
+            <div class="svg-icon gemini-icon">
+
+              <svg viewBox="0 0 64 64">
+
+                <path
+                  d="M32 4
+                  C35 18 46 29 60 32
+                  C46 35 35 46 32 60
+                  C29 46 18 35 4 32
+                  C18 29 29 18 32 4Z"
+                  fill="currentColor"
+                />
+
+              </svg>
+
+            </div>
+
+            <p>Google Gemini API</p>
+
+          </div>
+
+
+          <!-- AGENTIC AI -->
+
+          <div class="skill-card">
+
+            <div class="svg-icon agentic-icon">
+
+              <svg viewBox="0 0 64 64">
+
+                <circle
+                  cx="32"
+                  cy="32"
+                  r="22"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="3"
+                />
+
+                <circle cx="24" cy="28" r="4"/>
+                <circle cx="40" cy="28" r="4"/>
+
+                <path
+                  d="M21 43 Q32 50 43 43"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="3"
+                  stroke-linecap="round"
+                />
+
+                <path
+                  d="M32 10V3M10 32H3M54 32H61"
+                  stroke="currentColor"
+                  stroke-width="3"
+                  stroke-linecap="round"
+                />
+
+              </svg>
+
+            </div>
+
+            <p>Agentic AI</p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- TOOLS & PLATFORMS -->
+
+      <div class="skill-section md:col-span-2 tools-section">
+
+        <h3 class="skill-section-title center-title">
+          Tools & Platforms
+        </h3>
+
+        <div class="tools-grid">
+
+          <div class="skill-card">
+
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+              alt="Git"
+            />
+
+            <p>Git</p>
+
+          </div>
+
+
+          <div class="skill-card">
+
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+              alt="GitHub"
+            />
+
+            <p>GitHub</p>
+
+          </div>
+
+
+          <div class="skill-card">
+
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
+              alt="VS Code"
+            />
+
+            <p>VS Code</p>
+
+          </div>
+
+
+          <div class="skill-card">
+
+            <div class="text-icon">
+              CO
+            </div>
+
+            <p>Google Colab</p>
+
+          </div>
+
+
+          <div class="skill-card">
+
+            <div class="text-icon">
+              V
+            </div>
+
+            <p>Vercel</p>
+
+          </div>
+
+
+          <div class="skill-card">
+
+            <div class="text-icon">
+              N
+            </div>
+
+            <p>Netlify</p>
+
+          </div>
+
+
+          <div class="skill-card">
+
+            <div class="text-icon">
+              SB
+            </div>
+
+            <p>Supabase</p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- ================= HACKATHONS ================= -->
+
+  <section
+    id="hackathons"
+    class="py-20 max-w-6xl mx-auto px-6"
+  >
+
+    <h2 class="text-3xl font-bold text-center mb-4">
+      Hackathons & Achievements
+    </h2>
+
+    <p class="text-gray-400 text-center max-w-2xl mx-auto mb-12">
+      Actively participating in hackathons, buildathons, and innovation
+      challenges to solve real-world problems and build practical solutions.
     </p>
 
-    <div class="flex flex-wrap justify-center gap-4">
-      <a 
-  href="mailto:hemant75583@gmail.com"
-  class="bg-white text-black px-6 py-2 rounded-lg hover:bg-gray-200 transition"
->
-  Email Me
-</a>
 
-      <a 
-  href="https://github.com/HemantXCode"
-  target="_blank"
-  class="border border-white/20 px-6 py-2 rounded-lg hover:bg-white hover:text-black transition"
->
-  GitHub
-</a>
+    <div class="hackathon-grid">
 
-      <a 
-  href="https://www.linkedin.com/in/hemant-choudhary-65baa0281"
-  target="_blank"
-  class="border border-white/20 px-6 py-2 rounded-lg hover:bg-white hover:text-black transition"
->
-  LinkedIn
-</a>
 
-    </div>
-  </div>
-</section>
-<section class="py-20 max-w-4xl mx-auto px-6 section">
-  <h2 class="text-3xl font-bold mb-6 text-center">About Me</h2>
+      <!-- TAKEOVER -->
 
-  <p class="text-gray-400 text-center leading-relaxed">
-    I am a first-year BTech CSE student specializing in AI and Data Science, with a strong interest in web development and emerging technologies.
-I enjoy turning ideas into functional, user-friendly applications and continuously learning through projects, hackathons, and self-study.
-My goal is to grow as a skilled software engineer and build impactful technology solutions.
-  </p>
-</section>
-<section class="py-10 px-6 section">
-  <div class="max-w-3xl mx-auto bg-white/5 border border-white/10 rounded-xl p-6 text-center">
-    <h3 class="text-xl font-semibold">B.Tech in Computer Science Engineering</h3>
-    <p class="text-gray-400">Ajeenkya DY Patil College, Pune</p>
-    <p class="text-gray-500 mt-2">Expected Graduation: 2029</p>
-  </div>
-</section>
-<section id="skills" class="py-20 max-w-6xl mx-auto px-6 card">
-  <h2 class="text-3xl font-bold text-center mb-12">Skills</h2>
+      <div class="hackathon-card">
 
-  <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-
-    <!-- Languages & Frameworks -->
-    <div class="bg-white/5 border border-white/10 rounded-xl p-6">
-      <h3 class="text-xl font-semibold mb-6">Languages & Frameworks</h3>
-
-      <div class="grid grid-cols-3 sm:grid-cols-4 gap-6">
-        <!-- Skill -->
-        <div class="skill-card">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
-          <p>HTML</p>
+        <div class="hackathon-badge">
+          🏆
         </div>
 
-        <div class="skill-card">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
-          <p>CSS</p>
+        <div class="hackathon-content">
+
+          <span class="achievement-tag">
+            Finalist
+          </span>
+
+          <h3>
+            Takeover 2026 Hackathon
+          </h3>
+
+          <p>
+            Reached the finalist stage at the Takeover 2026 Hackathon by
+            developing and presenting an innovative technology solution.
+          </p>
+
+          <div class="hackathon-meta">
+            <span>🚀 Hackathon Finalist</span>
+            <span>📍 2026</span>
+          </div>
+
+          <a
+            href="YOUR_TAKEOVER_DRIVE_LINK"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="certificate-btn"
+          >
+            View Certificate
+          </a>
+
         </div>
 
-        <div class="skill-card">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" />
-          <p>Bootstrap</p>
-        </div>
-
-        <div class="skill-card">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" />
-          <p>Tailwind</p>
-        </div>
-
-        <div class="skill-card">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-          <p>JavaScript</p>
-        </div>
-
-        <div class="skill-card">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
-          <p>Python</p>
-        </div>
       </div>
-    </div>
 
-    <!-- Tools -->
-    <div class="bg-white/5 border border-white/10 rounded-xl p-6">
-      <h3 class="text-xl font-semibold mb-6">Tools</h3>
 
-      <div class="grid grid-cols-3 sm:grid-cols-4 gap-6">
-        <div class="skill-card">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
-          <p>Git</p>
+      <!-- NXTWAVE X OPENAI -->
+
+      <div class="hackathon-card">
+
+        <div class="hackathon-badge">
+          🤖
         </div>
 
-        <div class="skill-card">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-          <p>GitHub</p>
+        <div class="hackathon-content">
+
+          <span class="achievement-tag">
+            State-Level Finalist
+          </span>
+
+          <h3>
+            NxtWave × OpenAI Hackathon
+          </h3>
+
+          <p>
+            Selected as a state-level finalist at the NxtWave × OpenAI
+            Hackathon by building and presenting an AI-powered solution.
+          </p>
+
+          <div class="hackathon-meta">
+            <span>🏅 State-Level Finalist</span>
+            <span>📍 2026</span>
+          </div>
+
+          <a
+            href="https://drive.google.com/file/d/1S1RtDfzToBO8mPmLc4GUweZo0Igt-Mla/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="certificate-btn"
+          >
+            View Certificate
+          </a>
+
         </div>
 
-        <div class="skill-card">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" />
-          <p>VS Code</p>
-        </div>
       </div>
+
     </div>
 
-  </div>
-</section>
+  </section>
 
-<section id="projects" class="py-20 px-6 max-w-5xl mx-auto card">
-  <h2 class="text-3xl font-bold mb-10 text-center">Projects</h2>
 
-  <div class="project-card animate bg-black border border-white/10 rounded-2xl p-8 max-w-4xl mx-auto">
-  
-  <!-- Title -->
-  <h3 class="text-2xl font-semibold mb-4 text-center">
-    Smart Farm | AI-Powered Agriculture Platform 🌾
-  </h3>
+  <!-- ================= PROJECTS ================= -->
 
-  <!-- Description -->
-  <p class="text-gray-400 text-center mb-6">
-    Smart Farm is an AI-powered agriculture web application designed to assist
-    farmers with crop-related information, real-time weather updates, and nearby
-    market prices, enabling smarter and data-driven farming decisions.
-  </p>
+  <section
+    id="projects"
+    class="py-20 px-6 max-w-5xl mx-auto"
+  >
 
-  <!-- Bullet Points -->
-  <ul class="text-gray-400 space-y-2 mb-6 list-disc list-inside">
-    <li>
-      Provides crop guidance, weather forecasts, and local market price insights
-      to support better agricultural planning.
-    </li>
-    <li>
-      Focuses on a clean, responsive, and user-friendly interface tailored for
-      farmers and rural users.
-    </li>
-  </ul>
+    <h2 class="text-3xl font-bold mb-10 text-center">
+      Projects
+    </h2>
 
-  <!-- Tech Stack Tags -->
-  <div class="flex flex-wrap gap-3 justify-center mb-6">
-    <span class="px-4 py-1 text-sm rounded-full bg-green-600 text-white">HTML</span>
-    <span class="px-4 py-1 text-sm rounded-full bg-green-600 text-white">CSS</span>
-    <span class="px-4 py-1 text-sm rounded-full bg-green-600 text-white">JavaScript</span>
-    <span class="px-4 py-1 text-sm rounded-full bg-green-600 text-white">Tailwind</span>
-    <span class="px-4 py-1 text-sm rounded-full bg-green-600 text-white">AI</span>
-  </div>
 
-  <!-- Visit Button -->
-  <div class="flex justify-center">
-    <a
-      href="https://smart-farm-kisan-app.netlify.app/"
-      target="_blank"
-      class="px-6 py-2 rounded-lg bg-white text-black font-medium hover:bg-gray-200 transition"
+    <!-- SMART FARM -->
+
+    <div
+      class="project-card animate bg-black border border-white/10 rounded-2xl p-8 max-w-4xl mx-auto"
     >
-      Visit
-    </a>
-  </div>
-</div>
 
-</section>
+      <h3 class="text-2xl font-semibold mb-4 text-center">
+        Smart Farm | AI-Powered Agriculture Platform 🌾
+      </h3>
 
-<footer id="contact" class="border-t border-white/10 py-10 mt-20 text-center">
-  <h3 class="text-xl font-semibold mb-4">Contact</h3>
+      <p class="text-gray-400 text-center mb-6">
+        Smart Farm is an AI-powered agriculture web application designed
+        to assist farmers with crop-related information, real-time weather
+        updates, and nearby market prices, enabling smarter and data-driven
+        farming decisions.
+      </p>
 
-  <p class="text-gray-400 mb-2">
-    Email:
-    <a 
-      href="mailto:hemant75583@gmail.com"
-      class="underline hover:text-white"
+
+      <ul class="text-gray-400 space-y-2 mb-6 list-disc list-inside">
+
+        <li>
+          Provides crop guidance, weather forecasts, and local market price
+          insights to support better agricultural planning.
+        </li>
+
+        <li>
+          Focuses on a clean, responsive, and user-friendly interface
+          tailored for farmers and rural users.
+        </li>
+
+      </ul>
+
+
+      <div class="flex flex-wrap gap-3 justify-center mb-6">
+
+        <span class="px-4 py-1 text-sm rounded-full bg-green-600 text-white">
+          HTML
+        </span>
+
+        <span class="px-4 py-1 text-sm rounded-full bg-green-600 text-white">
+          CSS
+        </span>
+
+        <span class="px-4 py-1 text-sm rounded-full bg-green-600 text-white">
+          JavaScript
+        </span>
+
+        <span class="px-4 py-1 text-sm rounded-full bg-green-600 text-white">
+          Tailwind
+        </span>
+
+        <span class="px-4 py-1 text-sm rounded-full bg-green-600 text-white">
+          AI
+        </span>
+
+      </div>
+
+
+      <div class="flex justify-center">
+
+        <a
+          href="https://smart-farm-kisan-app.netlify.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="px-6 py-2 rounded-lg bg-white text-black font-medium hover:bg-gray-200 transition"
+        >
+          Visit
+        </a>
+
+      </div>
+
+    </div>
+
+
+    <!-- ORBITOPS AI -->
+
+    <div
+      class="project-card animate bg-black border border-white/10 rounded-2xl p-8 max-w-4xl mx-auto mt-8"
     >
-      hemant75583@gmail.com
-    </a>
-  </p>
-<div class="flex justify-center gap-4 mt-4">
-  <!-- Email -->
-  <a href="mailto:hemant75583@gmail.com" class="social-icon">
-    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
-      <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
-    </svg>
-  </a>
 
-  <!-- GitHub -->
-  <a href="https://github.com/HemantXCode" target="_blank" class="social-icon">
-    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
-      <path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.207 11.387.6.113.793-.262.793-.582
-      0-.287-.01-1.047-.015-2.055-3.338.726-4.042-1.61-4.042-1.61
-      -.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.73.083-.73
-      1.205.085 1.84 1.236 1.84 1.236
-      1.07 1.835 2.807 1.305 3.492.998
-      .108-.776.418-1.305.762-1.605
-      -2.665-.304-5.467-1.332-5.467-5.93
-      0-1.31.469-2.381 1.235-3.221
-      -.124-.303-.535-1.523.117-3.176
-      0 0 1.008-.322 3.301 1.23
-      .957-.266 1.983-.399 3.003-.404
-      1.02.005 2.047.138 3.006.404
-      2.291-1.552 3.297-1.23 3.297-1.23
-      .653 1.653.242 2.873.118 3.176
-      .77.84 1.233 1.911 1.233 3.221
-      0 4.61-2.807 5.624-5.479 5.921
-      .43.372.823 1.102.823 2.222
-      0 1.604-.015 2.896-.015 3.286
-      0 .322.192.699.801.58
-      C20.565 21.796 24 17.297 24 12
-      24 5.37 18.63 0 12 0z"/>
-    </svg>
-  </a>
-
-  <!-- LinkedIn -->
-  <a href="https://www.linkedin.com/in/hemant-choudhary-65baa0281" target="_blank" class="social-icon">
-    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
-      <path d="M20.447 20.452h-3.554v-5.569
-      c0-1.328-.027-3.037-1.852-3.037
-      -1.853 0-2.136 1.445-2.136 2.939
-      v5.667H9.351V9h3.414v1.561h.046
-      c.477-.9 1.637-1.85 3.37-1.85
-      3.601 0 4.267 2.37 4.267 5.455
-      v6.286zM5.337 7.433
-      c-1.144 0-2.063-.926-2.063-2.065
-      0-1.138.92-2.063 2.063-2.063
-      1.14 0 2.064.925 2.064 2.063
-      0 1.139-.925 2.065-2.064 2.065z
-      M6.813 20.452H3.861V9h2.952v11.452z
-      M22.225 0H1.771C.792 0 0 .774 0 1.727v20.545
-      C0 23.227.792 24 1.771 24h20.451
-      C23.2 24 24 23.227 24 22.273V1.727
-      C24 .774 23.2 0 22.222 0z"/>
-    </svg>
-  </a>
-</div>
+      <h3 class="text-2xl font-semibold mb-4 text-center">
+        OrbitOps AI | Intelligent Scheduling & Workforce Optimization 🤖
+      </h3>
 
 
-  <p class="text-gray-500 text-sm mt-6">
-    © 2025 Hemant. All rights reserved.
-  </p>
-</footer>
-<script src="script.js"></script>
+      <p class="text-gray-400 text-center mb-6">
+        OrbitOps AI is an AI-powered workforce optimization platform that
+        automates client bookings, skill-based employee assignments, capacity
+        planning, and no-show prediction using predictive AI models.
+      </p>
+
+
+      <ul class="text-gray-400 space-y-2 mb-6 list-disc list-inside">
+
+        <li>
+          Uses AI to match bookings with the most qualified available employees
+          based on skills, workload, and experience.
+        </li>
+
+        <li>
+          Predicts appointment no-shows and recommends automated actions to
+          reduce scheduling vacancies.
+        </li>
+
+        <li>
+          Includes an AI Copilot that converts natural-language scheduling
+          requests into structured operational commands.
+        </li>
+
+        <li>
+          Supports workforce utilization, demand forecasting, and capacity
+          optimization.
+        </li>
+
+      </ul>
+
+
+      <div class="flex flex-wrap gap-3 justify-center mb-6">
+
+        <span class="px-4 py-1 text-sm rounded-full bg-green-600 text-white">
+          AI
+        </span>
+
+        <span class="px-4 py-1 text-sm rounded-full bg-green-600 text-white">
+          NVIDIA NIM
+        </span>
+
+        <span class="px-4 py-1 text-sm rounded-full bg-green-600 text-white">
+          Llama 3.1
+        </span>
+
+        <span class="px-4 py-1 text-sm rounded-full bg-green-600 text-white">
+          Supabase
+        </span>
+
+        <span class="px-4 py-1 text-sm rounded-full bg-green-600 text-white">
+          AI Copilot
+        </span>
+
+      </div>
+
+
+      <div class="flex justify-center gap-4">
+
+        <a
+          href="https://orbit-ops-ai.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="px-6 py-2 rounded-lg bg-white text-black font-medium hover:bg-gray-200 transition"
+        >
+          Live Demo
+        </a>
+
+        <a
+          href="https://github.com/HemantXCode/OrbitOps-AI"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="px-6 py-2 rounded-lg border border-white/20 hover:bg-white hover:text-black transition"
+        >
+          GitHub
+        </a>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- ================= CONTACT ================= -->
+
+  <footer
+    id="contact"
+    class="border-t border-white/10 py-10 mt-20 text-center"
+  >
+
+    <h3 class="text-xl font-semibold mb-4">
+      Contact
+    </h3>
+
+    <p class="text-gray-400 mb-2">
+
+      Email:
+
+      <a
+        href="mailto:hemant75583@gmail.com"
+        class="underline hover:text-white"
+      >
+        hemant75583@gmail.com
+      </a>
+
+    </p>
+
+
+    <div class="flex justify-center gap-4 mt-4">
+
+
+      <!-- EMAIL -->
+
+      <a
+        href="mailto:hemant75583@gmail.com"
+        class="social-icon"
+      >
+
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="20"
+          height="20"
+          fill="currentColor"
+          viewBox="0 0 24 24"
+        >
+
+          <path
+            d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"
+          />
+
+        </svg>
+
+      </a>
+
+
+      <!-- GITHUB -->
+
+      <a
+        href="https://github.com/HemantXCode"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="social-icon"
+      >
+
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="20"
+          height="20"
+          fill="currentColor"
+          viewBox="0 0 24 24"
+        >
+
+          <path
+            d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.207 11.387.6.113.793-.262.793-.582
+            0-.287-.01-1.047-.015-2.055-3.338.726-4.042-1.61-4.042-1.61
+            -.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.73.083-.73
+            1.205.085 1.84 1.236 1.84 1.236
+            1.07 1.835 2.807 1.305 3.492.998
+            .108-.776.418-1.305.762-1.605
+            -2.665-.304-5.467-1.332-5.467-5.93
+            0-1.31.469-2.381 1.235-3.221
+            -.124-.303-.535-1.523.117-3.176
+            0 0 1.008-.322 3.301 1.23
+            .957-.266 1.983-.399 3.003-.404
+            1.02.005 2.047.138 3.006.404
+            2.291-1.552 3.297-1.23 3.297-1.23
+            .653 1.653.242 2.873.118 3.176
+            .77.84 1.233 1.911 1.233 3.221
+            0 4.61-2.807 5.624-5.479 5.921
+            .43.372.823 1.102.823 2.222
+            0 1.604-.015 2.896-.015 3.286
+            0 .322.192.699.801.58
+            C20.565 21.796 24 17.297 24 12
+            24 5.37 18.63 0 12 0z"
+          />
+
+        </svg>
+
+      </a>
+
+
+      <!-- LINKEDIN -->
+
+      <a
+        href="https://www.linkedin.com/in/hemant-choudhary-65baa0281"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="social-icon"
+      >
+
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="20"
+          height="20"
+          fill="currentColor"
+          viewBox="0 0 24 24"
+        >
+
+          <path
+            d="M20.447 20.452h-3.554v-5.569
+            c0-1.328-.027-3.037-1.852-3.037
+            -1.853 0-2.136 1.445-2.136 2.939
+            v5.667H9.351V9h3.414v1.561h.046
+            c.477-.9 1.637-1.85 3.37-1.85
+            3.601 0 4.267 2.37 4.267 5.455
+            v6.286zM5.337 7.433
+            c-1.144 0-2.063-.926-2.063-2.065
+            0-1.138.92-2.063 2.063-2.063
+            1.14 0 2.064.925 2.064 2.063
+            0 1.139-.925 2.065-2.064 2.065z
+            M6.813 20.452H3.861V9h2.952v11.452z
+            M22.225 0H1.771C.792 0 0 .774 0 1.727v20.545
+            C0 23.227.792 24 1.771 24h20.451
+            C23.2 24 24 23.227 24 22.273V1.727
+            C24 .774 23.2 0 22.222 0z"
+          />
+
+        </svg>
+
+      </a>
+
+    </div>
+
+
+    <p class="text-gray-500 text-sm mt-6">
+      © 2026 Hemant. All rights reserved.
+    </p>
+
+  </footer>
+
+
+  <!-- ================= JAVASCRIPT ================= -->
+
+  <script src="script.js"></script>
+
 </body>
 </html>
